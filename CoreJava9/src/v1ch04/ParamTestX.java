@@ -8,7 +8,7 @@ public class ParamTestX {
 
 	public static void main(String[] args) {
 		
-		// 方法内创建了参数的副本
+		/*// 方法内创建了参数的副本
 		System.out.println("Testing tripleValue:");
 		double percent = 10;
 		System.out.println("before: percent=" + percent);
@@ -30,10 +30,10 @@ public class ParamTestX {
 		System.out.println("before: b=" + b.getName());
 		swap(a, b);
 		System.out.println("after: a=" + a.getName());
-		System.out.println("after: b=" + b.getName());
+		System.out.println("after: b=" + b.getName());*/
 	}
 	
-	public static void tripleValue(double x) {
+	/*public static void tripleValue(double x) {
 		x = 3 * x;
 		System.out.println("end of method: x=" + x);
 	}
@@ -49,11 +49,11 @@ public class ParamTestX {
 		y = temp;
 		System.out.println("end of method: x=" + x.getName());
 		System.out.println("end of method: y=" + y.getName());
-	}
+	}*/
 
 }
 
-class Employee {
+/*class Employee {
 	
 	private String name;
 	private double salary;
@@ -77,4 +77,4 @@ class Employee {
 		salary += raise;
 	}
 	
-}
+}*/
