@@ -1,5 +1,9 @@
 package v1ch05.inheritance;
 
+/**
+ * 5-1 P154
+ * @author Yuhui Huang
+ */
 public class ManagerTest {
 
 	public static void main(String[] args) {

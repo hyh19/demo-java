@@ -1,5 +1,9 @@
 package v1ch05.inheritance;
 
+/**
+ * 5-3 P156
+ * @author Yuhui Huang
+ */
 public class Manager extends Employee {
 	
 	private double bonus;

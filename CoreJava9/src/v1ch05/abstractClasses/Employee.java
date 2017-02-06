@@ -1,27 +1,22 @@
-package v1ch05.inheritance;
+package v1ch05.abstractClasses;
 
-import java.util.*;
+import java.util.Date;
+import java.util.GregorianCalendar;
 
 /**
- * 5-2 P155
+ * 5-6 P167
  * @author Yuhui Huang
  */
-public class Employee {
+public class Employee extends Person {
 	
-	private String name;
 	private double salary;
 	private Date hireDay;
 	
 	public Employee(String name, double salary, int year, int month, int day) {
-		super();
-		this.name = name;
+		super(name);
 		this.salary = salary;
 		GregorianCalendar calendar = new GregorianCalendar(year, month-1, day);
 		hireDay = calendar.getTime();
-	}
-	
-	public String getName() {
-		return name;
 	}
 
 	public double getSalary() {
@@ -31,12 +26,17 @@ public class Employee {
 	public Date getHireDay() {
 		return hireDay;
 	}
-
+	
+	@Override
+	public String getDescription() {
+		return String.format("an employee with a salary of $%.2f", salary);
+	}
+	
 	public void raiseSalary(double byPercent) {
 		double raise = salary * byPercent / 100;
 		salary += raise;
 	}
-	
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
