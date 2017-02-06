@@ -8,7 +8,7 @@ public class StaticTestX {
 
 	public static void main(String[] args) {
 
-		Employee[] staff = new Employee[3];
+		/*Employee[] staff = new Employee[3];
 		
 		staff[0] = new Employee("Ken", 40000);
 		staff[1] = new Employee("Mike", 60000);
@@ -17,13 +17,13 @@ public class StaticTestX {
 		for (Employee employee : staff) {
 			employee.setId();
 			System.out.println("name=" + employee.getName() + ",id=" + employee.getId() + ".salary=" + employee.getSalary());
-		}
+		}*/
 
 	}
 
 }
 
-class Employee {
+/*class Employee {
 	
 	private static int nextId = 1;
 	
@@ -58,4 +58,4 @@ class Employee {
 		return salary;
 	}
 	
-}
+}*/
