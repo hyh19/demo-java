@@ -2,8 +2,6 @@ package v1ch04;
 
 import java.util.*;
 
-import com.sun.javafx.sg.prism.web.NGWebView;
-
 /**
  * 4-2 P107
  * @author Yuhui Huang
