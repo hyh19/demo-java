@@ -1,5 +1,7 @@
 package v1ch06.interfaces;
 
+import v1ch06.interfaces.Employee;
+
 import java.util.Arrays;
 
 /**
