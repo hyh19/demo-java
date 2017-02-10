@@ -2,6 +2,7 @@ package v1ch12.pair1;
 
 /**
  * Created by yuhuihuang on 10/02/2017.
+ * 12-1 P530
  */
 public class Pair<T> {
 
