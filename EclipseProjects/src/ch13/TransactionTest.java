@@ -27,7 +27,7 @@ public class TransactionTest {
 			for (int i = 0; i <= 10; i++) {
 				statement.setString(1, "yyy" + i);
 				statement.setInt(2, 1);
-//				statement.setInt(2, 5); // �����쳣���Զ��ع���
+//				statement.setInt(2, 5); // 违反外键约束，因为teacher_table表中没有ID为5的记录，出现异常将自动回滚。
 				statement.executeUpdate();
 			}
 			connection.commit();
